@@ -1,0 +1,197 @@
+body{
+	background-color: lightgrey;
+	margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: Arial Narrow, sans-serif;
+
+
+}
+
+#header {
+	height: auto;
+	width: 900px;
+	color: #D8D8D8;
+}
+
+h1{
+	text-align: center;
+  text-transform: uppercase;
+  color: #346675;
+  font-family: impact;
+  letter-spacing: 3px;
+}
+
+#content{
+	border: 1px solid grey;
+	padding: 20px;
+	margin: 20px;
+	text-indent: 0px;
+	text-align: justify;
+	letter-spacing: 0px;
+	overflow:auto;
+	font-size: large;
+}
+#contentEmphasis{
+	border: 1px solid grey;
+	padding: 20px;
+	margin: 20px;
+	text-indent: 0px !important;
+	text-align: justify;
+	letter-spacing: 3px;
+	overflow:auto;
+
+	font-style: italic;
+}
+#contentViewer{
+	border: 1px solid grey;
+	padding: 20px;
+	margin: 20px;
+	text-indent: 0px;
+	text-align: justify;
+	letter-spacing: 0px;
+	overflow:auto;
+	font-size: large;
+	background-color: white;
+}
+#contentViewer h1{
+	 letter-spacing: 0px;
+}
+#portfolioViewer{
+	height: 100vh;
+	margin: 20px;
+}
+.buttonImage{
+	height: 10vh;
+	width: 10vh;
+	display:block;
+	margin: auto;
+}
+.row {
+  display: flex;
+  height: 10%;
+  width: 10%;
+  margin: auto;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.aboutMeImagesCenter{
+	width: 20%;
+	height: 20%;
+
+	margin:auto;
+	display: block;
+	border-radius: 5%;
+}
+.aboutMeImages{
+	width: 25%;
+	height: 25%;
+
+	margin:20px;
+	float:right;
+	border-radius: 5%;
+}
+.detailedImageView{
+	width: 25%;
+	height: 25%;
+
+	margin:20px 50px 20px 20px;
+	float:left;
+	border-radius: 5%;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 20px;
+	align-items: center;
+}
+.grid img{
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+	max-width: 100%;
+	max-height: 300px
+}
+.detailedImageView{
+	max-width: 50vh;
+	max-height: 50vh;
+
+}
+/*#navigation{
+	background-color: #FFFFEA;
+	max-height: 50px;
+}*/
+
+.header {
+  /* The image used */
+  background-image: url("projectPhotos/10.jpg");
+  /* Full height */
+  height:100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.watermark{
+	color: white;
+	font-size: 180px;
+	margin: 0px;
+
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: impact;
+}
+.watermarkSubText{
+	color: white;
+	font-size: 90px;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: impact;
+}
+.watermarkSubTextPos{
+	position: relative;
+	bottom:30vh;
+}
+
+/* Add a black background color to the top navigation */
+.navigation {
+  background-color: #333;
+  overflow: hidden;
+  opacity: 80%;
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navigation a.active {
+  background-color: #5DB2CB;
+  color: white;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
